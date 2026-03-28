@@ -1,0 +1,59 @@
+header {
+    background: maroon;
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.card {
+    background: white;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 15px;
+    transition: 0.3s;
+    
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.card span {
+    display: block;
+    color: maroon;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.card button {
+    background: maroon;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    padding: 40px;
+}
