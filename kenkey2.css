@@ -30,9 +30,8 @@ header {
 
 .hero {
     text-align: center;
-    padding: 150px 40px;
-    background: url(kenkey2bg.jpeg);
-    color: white;
+    padding: 130px 40px;
+    color: rgb(100, 7, 7);
 }
 
 .hero h1{

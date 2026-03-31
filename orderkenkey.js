@@ -3,9 +3,11 @@ document.addEventListener("DOMContentLoaded", function () {
     const message = document.getElementById("message");
 
     if (item) {
-        message.textContent = "You have ordered " + item;
-        alert("You have ordered " + item);
+        message.textContent =  "Your order of " + item + " has been placed successfully!";
+
+        localStorage.removeItem("orderedItem");
+
     } else {
-        message.textContent = "No item selected";
+        message.textContent = " No item selected. Please go back to the menu.";
     }
-});  
+});

@@ -21,7 +21,7 @@ header {
 }
 
 .back-btn:hover {
-    color: red;
+    color: rgb(218, 11, 11);
 }
 
 .card {
@@ -84,7 +84,7 @@ header {
     font-size: 1rem;
 }
 #search:focus {
-    border-color: #800000;
+    border-color: #a00000;
     outline: none;
     box-shadow: 0 0 5px rgba(128, 0, 0, 0.5);
 }
